@@ -1,0 +1,79 @@
+body{
+background-color:#f0f0f0;
+}
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    top:70px;
+    border: 30px;
+}
+
+.flexbox{
+    border-radius: 5px 5px 150px 5px;
+    background: #ffffff;
+    padding: 20px; 
+    width: 550px;
+    height: 350px; 
+    padding:60px;
+    display: flex;
+    gap:2rem;
+}
+
+.day{
+    height: 40px;
+    width: 110px;
+}
+
+
+.month{
+    height: 40px;
+    width: 110px;
+}
+
+
+.year{
+    height: 40px;
+    width: 110px;
+
+}
+
+.box{
+    display: flex;
+    gap:5%;
+}
+.dash{
+
+}
+
+
+
+
+
+
+
+.YYYY{
+    color: #874cff;
+    font-size: 90px;
+    font-weight: 100px;
+    position: relative;
+    top:10px;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    font-weight: 100px;
+    font-style: italic;
+    height: fit-content;
+    line-height: 20px;
+}
+
+.submit_block{
+    position: relative;
+    left: 500px;
+}
